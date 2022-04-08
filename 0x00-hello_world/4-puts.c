@@ -2,7 +2,7 @@
 /**
  *main - entry point
  *
- *return: 0 after printing function
+ *Return: 0 after printing function
  */
 int main(void)
 {
