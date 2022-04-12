@@ -12,9 +12,11 @@ int main(void)
 	int alf;
 
 	for (alf = 'a'; alf <= 'z'; alf++)
+	{
 		if (alf == 'e' && alf == 'q')
 			continue;
 		putchar(alf);
 		putchar('\n');
+	}
 	return (0);
 }
