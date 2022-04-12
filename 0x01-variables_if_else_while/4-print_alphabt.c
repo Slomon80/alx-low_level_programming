@@ -13,7 +13,7 @@ int main(void)
 
 	for (alf = 'a'; alf <= 'z'; alf++)
 	{
-		if (alf == 'e' && alf == 'q')
+		if (alf == 'e' || alf == 'q')
 		{
 			continue;
 		}
