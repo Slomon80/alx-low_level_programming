@@ -16,7 +16,7 @@ int main(void)
 		if (alf == 'e' && alf == 'q')
 			continue;
 		putchar(alf);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
