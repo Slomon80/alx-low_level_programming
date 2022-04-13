@@ -1,11 +1,17 @@
-#include "_putchar.h"
+#include "main.h"
 /**
- * main - Entry point 
+ * main - Entry point
  * Return: Always 0 successful
  */
-int _putchar(char c)
+int main(void)
 {
-	putchar("_putchar");
-	putchar("\n");
+	char c[] = "_putchar";
+
+	int i;
+
+	for (i = 0; i < 8; i++)
+
+		_putchar(c[i]);
+	_putchar('\n');
 	return (0);
 }
