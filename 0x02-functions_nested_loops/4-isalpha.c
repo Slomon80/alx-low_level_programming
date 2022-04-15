@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha: Tests whether a character if from the English alphabet
+ * _isalpha - Tests whether a character if from the English alphabet
  * @c: test character
  * Return: 0 or 1
  */
