@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_last_digit - to print thhe last digit
+ * print_last_digit - print the last digit
  * @num: the character to be tested.
  */
 int print_last_digit(int num)
