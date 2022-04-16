@@ -6,8 +6,20 @@
  */
 int print_last_digit(int num)
 {
+	int lastDig;
+
 	if (num < 0)
-		num = num * -1;
-	_putchar((num % 10) + '0');
-	return (num % 10);
+	{
+		lastDig = ((num % 10) * -1);
+		_putchar(lastDig + '0');
+		return (lastDig);
+	}
+	else
+	{
+
+		lastDig = (num % 10);
+		_putchar(lastDig + '0');
+
+		return (lastDig);
+	}
 }
