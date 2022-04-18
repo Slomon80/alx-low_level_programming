@@ -4,18 +4,18 @@
  */
 void jack_bauer(void)
 {
-	int hour, minute;
+	int x, y;
 
-	for (hour = 0; hour <= 23; hour++)
+	for (x = 0; x <= 23; x++)
 	{
-		for (minute = '0'; minute <= 59; minute++)
+		for (y = '0'; y <= 59; y++)
 		{
 
-			_putchar((hour / 10) + '0');
-			_putchar((hour % 10) + '0');
+			_putchar((x / 10) + '0');
+			_putchar((x % 10) + '0');
 			_putchar(':');
-			_putchar((minute / 10) + '0');
-			_putchar((minute % 10) + '0');
+			_putchar((y / 10) + '0');
+			_putchar((y % 10) + '0');
 			_putchar('\n');
 		}
 	
