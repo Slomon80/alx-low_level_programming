@@ -1,6 +1,6 @@
 #ifndef HEAD_H
 #define HEAD_H
 
-#define SUM(×, Y) (×) + (y)
+#define SUM(x, y) (x) + (y)
 
 #endif
