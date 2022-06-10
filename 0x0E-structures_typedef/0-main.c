@@ -1,12 +1,5 @@
 #include <stdio.h>
 #include "dog.h"
-
-struct dog
-{
-	char *name;
-	float age;
-	char *owner;
-};
 /**
  * main - check the code
  * Return: Always 0.
